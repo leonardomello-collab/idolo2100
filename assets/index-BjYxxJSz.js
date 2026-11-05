@@ -89,7 +89,7 @@
     <button class="btn wide" id="ok">${r.staff.length?`Contratar e começar`:`Seguir sem staff`}</button>
   </section>`,so(r.staff,oo),K(`#ok`).onclick=()=>{$a=null,e.contratarStaff(r.staff),Q()}}function so(e,t){q(`[data-st]`).forEach(n=>n.onclick=()=>{let r=n.dataset.st,i=e.indexOf(r);i>=0?e.splice(i,1):e.push(r),t()})}function co(){let e=Z().S,t=e.idolRounds,n=et(t,e.level,e.jIdolo||0),r=bi(e),i=e.car.j?(e.car.ns/e.car.j).toFixed(1):`-`;K(`#stage`).innerHTML=`<section class="endcard">
     <div class="lbl" style="color:#ffb3b8">${J(za(e))}</div>
-    <div><div class="pl-name" style="font-size:40px">${J(e.name)}</div><div class="badges"><span class="badge">${e.pos}</span><span class="badge">${e.season} temporada${e.season>1?`s`:``}</span></div></div>
+    <div><div class="pl-name" style="font-size:28px">${J(e.name)}</div><div class="badges"><span class="badge">${e.pos}</span><span class="badge">${e.season} temporada${e.season>1?`s`:``}</span></div></div>
     <div class="titulos2">
       <div><div class="lbl">No Flamengo</div><div class="title">${n}</div>${n===`Lenda rubro-negra`?`<div class="sub" style="color:var(--gold)">Entre os 10 maiores da história do clube.</div>`:``}</div>
       <div><div class="lbl">Na carreira</div><div class="title">${r}</div><div class="sub">${yi(e)} pontos de carreira · ${Y(e.dinheiro||0)} ganhos</div></div>
