@@ -5,14 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ídolo 2100</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:wght@400..900&family=Chakra+Petch:wght@500;600;700&display=swap">
-  <script type="module" crossorigin src="./assets/index-heBXruog.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-11gsPbGq.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,800;1,900&family=Barlow:wght@400;500;600;700&display=swap">
+  <script type="module" crossorigin src="./assets/index-BcnUGCZ1.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BYW3I0hD.css">
 </head>
 <body>
+<header id="top" hidden>
+  <div class="top-in">
+    <div class="marca" aria-hidden="true">Ídolo <span>2100</span></div>
+    <div id="top-id"></div>
+    <div id="top-goal" hidden></div>
+  </div>
+  <div id="faixa" class="ixs ixs-faixa" hidden></div>
+</header>
 <div class="wrap">
-  <aside id="hud" hidden></aside>
-  <main id="stage"></main>
+  <nav id="tabs" aria-label="Seções do jogo" hidden></nav>
+  <div class="col-main">
+    <div id="quando" hidden></div>
+    <main id="stage"></main>
+  </div>
+  <aside id="side" hidden>
+    <div class="card side-card"><div class="kick">Seus índices</div><div id="side-idx-l" class="ixs ixs-lado"></div></div>
+    <div class="card side-card" id="side-disp" hidden></div>
+  </aside>
 </div>
 <div class="modal" id="modal" hidden><div class="dec" id="dec"></div></div>
 <div id="toasts"></div>
